@@ -1,3 +1,19 @@
+require 'rubygems'
+
+# --- Instructions ---
+# - Sort through your spec_helper file. Place as much environment loading 
+#   code that you don't normally modify during development in the 
+#   Spork.prefork block.
+# - Place the rest under Spork.each_run block
+# - Any code that is left outside of the blocks will be ran during preforking
+#   and during each_run!
+# - These instructions should self-destruct in 10 seconds.  If they don't,
+#   feel free to delete them.
+#
+
+
+
+
 # This file is copied to spec/ when you run 'rails generate rspec:install'
 ENV["RAILS_ENV"] ||= 'test'
 require File.expand_path("../../config/environment", __FILE__)
